@@ -12,11 +12,11 @@ public class SpringbootGitHbrApplication {
 		SpringApplication.run(SpringbootGitHbrApplication.class, args);
 		
 		Student st = new Student();
-		st.setId(1l);
-		st.setName("John");
-		st.setLastName("Smith");
+		st.setId(1);
+		st.setStudentName("John");
 		
-		System.out.println("Student info " + st.getName() + st.getLastName());
+		
+		System.out.println("Student info " + st.getStudentName());
 		
 	}
 
